@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>API Documentation</title>
+        <base href="/">
+        
+        <!-- build:css(./build) styles/styles.min.css -->
+        <link rel="stylesheet" href="styles/style.css" />
+        <!-- endbuild -->
+        
+        
+        
+        <!-- build:css(.) styles/vendor.css -->
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/fullpage.js/jquery.fullPage.css" />
+        <!-- endbower -->
+        <!-- endbuild -->
+        
+    </head>
+    <body class="bonhommes">
+        
+        <div id="fullpage">
+            <% include views/first.html %>
+            <% include views/roster.html %>
+        </div>
+        
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/fullpage.js/jquery.fullPage.js"></script>
+    <script src="bower_components/fullpage.js/vendors/jquery.easings.min.js"></script>
+    <script src="bower_components/fullpage.js/vendors/jquery.slimscroll.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/app.min.js -->    
+    <script type="text/javascript" src="scripts/app.js"> </script>
+    <!-- endbuild -->
+    </body>
+</html>
