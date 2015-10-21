@@ -3,6 +3,8 @@
     "version": "1.0.0",
     "dependencies": {
         "fullpage.js": "2.7.4",
-        "jquery": "2.1.4"
+        "jquery": "2.1.4",
+        "bootstrap": "3.3.4",
+        "fontawesome":"4.3.0"
     }
 }
