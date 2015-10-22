@@ -1,6 +1,8 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        anchors: ['firstPage', 'secondPage']
+        sectionsColor: ['#305065', '#305065', '#305065'],
+        anchors: ['firstPage', 'secondPage'],
+        menu: '#menu'
     });
     
     $('#first-button').click(function(e){
