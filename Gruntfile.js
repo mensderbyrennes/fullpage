@@ -60,7 +60,7 @@ module.exports = function (grunt) {
 
         watch: { // watch files, trigger actions and perform livereload
             dev: {
-                files: ['<%= project.app%>/index.html', '<%= project.app%>/scripts/**/*.js', '<%= project.app%>/**/*.less', '<%= project.app%>/views/**/*.html'],
+                files: ['<%= project.app%>/index.ejs', '<%= project.app%>/scripts/**/*.js', '<%= project.app%>/**/*.less', '<%= project.app%>/views/**/*.html'],
                 tasks: [
                     'less:dev',
                     'ejs',

@@ -1,0 +1,22 @@
+@import "constants.less";
+
+i.button {
+
+  color:@buttonColorDead;
+  font-size:5em;
+  cursor:pointer;
+  position:fixed;
+  z-index: 70;
+  &:hover {
+    color:@buttonColor;
+  }
+
+  &.down-button {
+    bottom: 50px;
+  }
+
+  &.up-button {
+    top: 0px;
+  }
+}
+

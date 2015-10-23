@@ -21,8 +21,14 @@
         
     </head>
     <body class="bonhommes">
+
+        <div class="row" id="nav-up">
+            <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+                <i class="fa fa-chevron-up up-button button" id="previous-button"></i>
+            </div>
+        </div>
         
-        <ul id="menu">
+        <ul id="menu" class="menu" style="display:none">
             <li data-menuanchor="firstPage"><a href="#firstPage">First slide</a></li>
             <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
             <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
@@ -33,6 +39,12 @@
             <% include views/first.html %>
             <% include views/slogan.html %>
             <% include views/roster.html %>
+        </div>
+
+        <div class="row" id="nav-down">
+            <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+                <i class="fa fa-chevron-down down-button button" id="next-button"></i>
+            </div>
         </div>
         
         
