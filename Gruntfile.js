@@ -168,7 +168,7 @@ module.exports = function (grunt) {
                         cwd: '<%= project.app%>',
                         flatten: false,
                         expand: true,
-                        src: ['assets/**/*.*'],
+                        src: ['assets/**/*.*', 'favicon.ico'],
                         dest: '<%= project.dist%>'
                     },
                     {
@@ -223,7 +223,7 @@ module.exports = function (grunt) {
         'less',
         'copy',
         'express:dev',
-        'open:dev',
+        //'open:dev',
         'watch:dev'
     ]);
 

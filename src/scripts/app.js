@@ -2,8 +2,9 @@ $(document).ready(function() {
     'use strict';
     $('#fullpage').fullpage({
         sectionsColor: ['#305065', '#305065', '#305065'],
-        anchors: ['firstPage', 'secondPage', 'roster'],
+        anchors: ['first-page', 'slogan', 'roster'],
         menu: '#menu',
+        navigation:true,
         afterLoad: function(anchorLink, index) {
             if (index === 1) {
                 $('#nav-up').hide();

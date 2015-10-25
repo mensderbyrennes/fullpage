@@ -1,0 +1,83 @@
+@import "../constants.less";
+
+.slogan {
+        
+        @media (max-width: 1000px) {
+            .slogan-bonhommes {
+                font-size:1.8em;
+            }
+        }
+        @media (max-width: 700px) {
+            .slogan-bonhommes {
+                font-size:1.3em;
+            }
+        }
+        @media (min-width: 1000px) {
+            .slogan-bonhommes {
+                font-size:2.8em;
+            }
+        }
+    
+    .slogan-bonhommes {
+        font-weight: bold;
+        color: #dddddd;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin: 0px auto;
+
+        .du-bo {
+            font-size: 1em;
+            transition: all 0.5s ease-out;
+            -webkit-transition: all 0.3s ease-out;
+            transition-delay: 0.2s;
+            -webkit-transition-delay: 0.2s;
+        }
+        
+        .du-bon {
+            font-size: 1em;
+            transition: all 0.3s ease-out;
+            -webkit-transition: all 0.3s ease-out;
+            transition-delay: 0.7s;
+            -webkit-transition-delay: 0.7s;
+        }
+        
+        .du-bonhomme {
+            font-size: 1em;
+            transition: all 0.3s ease-out;
+            -webkit-transition: all 0.3s ease-out;
+            transition-delay: 1.2s;
+            -webkit-transition-delay: 1.2s;
+        }
+    }
+}
+
+.fp-viewing-slogan {
+    .slogan-bonhommes {
+        .du-bo {
+            font-size: 1.5em;
+        }
+        .du-bon {
+            font-size: 1.5em;
+        }
+        .du-bonhomme {
+            font-size: 1.5em;
+            color: @emphasisColor;
+        }
+    }
+}
+
+.fp-viewing-first-page,.fp-viewing-roster {
+    .slogan-bonhommes {
+        .du-bo {
+            font-size: 1em;
+        }
+        .du-bon {
+            font-size: 1em;
+        }
+        .du-bonhomme {
+            font-size: 1em;
+        }
+    }
+}
